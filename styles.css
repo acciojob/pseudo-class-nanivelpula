@@ -1,14 +1,15 @@
 /*  your css code here. If applicable */
-#f{
-	color:red;
+
+div::before{
+    content: "Before Element";
+	color:rgb(255, 0, 0);
 	font-size:20px;
-	font-family:sans-serif;
-	padding-top:20px;
-	padding-bottom:10px;
-	font-weight:30px;
-	
+	font-weight:bold;
 }
-#s{
-	color:black;
-	font-size:15px;
+
+div::after{
+    content: "After Element";
+	color:rgb(255, 0, 0);
+	font-size:20px;
+	font-weight:bold;
 }
